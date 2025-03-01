@@ -2,7 +2,7 @@
 const dicBtn = document.getElementById('dis-btn');
 
 dicBtn.addEventListener('click', function (){
- window.location.href = '../other.html'
+ window.location.href = 'other.html'
 })
 
  
