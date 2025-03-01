@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class=" bg-[#f4f7ff] ">
+   <section class="">
+      <div class=" container mx-auto  navbar bg-white rounded-xl ">
+        <div class="navbar-start  ms-5">
+          <img src="./assets/logo.png" alt="">
+          <p class="text-3xl text-gray-700">Dev<samp class=" font-extrabold text-black ">Board</samp></p>
+        </div>
+       
+        <div class="navbar-end gap-5 mr-5">
+            <button  class="btn bg-[#3751fdb4]  text-lg font-bold" id="back-btn">back to desk</button>
+        </div>
+      </div>
+
+      <div class="text-center my-4 text-2xl font-bold"><p>Blogs</p></div>
+      <!-- questions -->
+      <section class="container mx-auto space-y-5">
+        <div class="bg-white p-5  ">
+            Question-1: What are the different ways to select an element in the DOM?
+<div class="my-4 border-dashed border-t-3 border-gray-300"></div>
+            <nav>
+                there are may type of way to select an element in dom like By id, By class, By tag name,  etc.
+            </nav>
+        </div>
+        <div class="bg-white p-5  ">
+            Question-2: What is the difference between innerHTML, innerText, and textContent ?
+<div class="my-4 border-dashed border-t-3 border-gray-300"></div>
+            <nav>
+                "innerHTML" retrieves the complete HTML content within an element, including tags, while "innerText" only retrieves the visible text content of an element (ignoring HTML tags), and "textContent" retrieves all text content within an element, including hidden text, but without interpreting any HTML tags.
+            </nav>
+        </div>
+        <div class="bg-white p-5  ">
+            Question-3: What is event delegation in the DOM?
+<div class="my-4 border-dashed border-t-3 border-gray-300"></div>
+            <nav>
+                DOM (Document Object Model), "event delegation" is a technique where you attach a single event listener to a parent element, allowing it to handle events triggered on any of its child elements.
+            </nav>
+        </div>
+        <div class="bg-white p-5  ">
+            Question-4: What is event bubbling in the DOM?
+<div class="my-4 border-dashed border-t-3 border-gray-300"></div>
+            <nav>
+                the behavior where when an event occurs on an element, it triggers not only on that element but also propagates upwards through its parent elements in the DOM hierarchy
+            </nav>
+        </div>
+        <div class="bg-white p-5  ">
+            Question-5: How do you create, add, and remove elements using JavaScript?
+<div class="my-4 border-dashed border-t-3 border-gray-300"></div>
+            <nav>
+                we can create,add and remove elements by useing those example -
+                document.createElement("p"), document.createTextNode(""), .appendChild(), document.getElementById("p")
+            </nav>
+        </div>
+      </section>
+    </section>
+
+
+<script>
+    const backBtn = document.getElementById('back-btn');
+
+backBtn.addEventListener('click', function (){
+ window.location.href = '../index.html'
+})
+</script>
+
+    
+</body>
+</html>

@@ -15,7 +15,8 @@
     dayDiv.innerHTML = now.toLocaleDateString(undefined, optionsDay);
     dateDiv.innerHTML = now.toLocaleDateString(undefined, optionsDate);
     timediv.innerHTML = now.toLocaleTimeString(undefined, optionstime)
-    }
+        
+}
         
        
     updateDateTime();

@@ -2,7 +2,7 @@
 
 let number = [23];
 
-let numb = [5]
+let numb = [6]
 
  function plusMinusNumber(){
   number++;
